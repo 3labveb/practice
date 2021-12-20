@@ -97,7 +97,7 @@ namespace Games
                 {
                     if (button.isBomb)
                     {
-                        button.Text = "*";
+                        button.Text = "☼";
                     }
                 }
                 MessageBox.Show("Вы проиграли :(");
