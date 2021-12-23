@@ -18,7 +18,7 @@ namespace Games
             int width = 10;  //ширина поля
             int height = 10; //высота поля
             int offset = 30; //размер ячейки
-            int bombPercent = 20;  //процент бомб на поле
+            int bombPercent = 5;  //процент бомб на поле
             bool isFirstClick = true;
 
             FieldButton[,] field;
@@ -81,7 +81,7 @@ namespace Games
                     clickedButton.isClickable = !clickedButton.isClickable;
                     if (!clickedButton.isClickable)
                     {
-                        clickedButton.Text = "B";
+                        clickedButton.Text = "†";
                     }
                     else
                     {
